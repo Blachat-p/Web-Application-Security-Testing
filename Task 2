@@ -1,1 +1,52 @@
+# Task 3: Securing Your Own Wi-Fi Network
+
+## Overview
+
+This repository documents the process of conducting a **Wi-Fi security assessment** on my home network as part of Task 3 in the **Future Interns** program. The goal of this task was to identify vulnerabilities in my Wi-Fi network and implement security measures to protect it from potential threats. 
+
+The assessment included checking for weak passwords, scanning for open ports, identifying unauthorized devices, and capturing network traffic to analyze potential vulnerabilities.
+
+## What Was Done
+
+### 1. **Password Strength Check**
+- Ensured that the Wi-Fi password was strong and secure by following best practices for creating complex passwords.
+- The Wi-Fi password was changed to a secure one, consisting of a combination of uppercase, lowercase, numbers, and special characters.
+
+### 2. **Nmap Scan for Open Ports**
+- Performed a thorough **Nmap scan** on my home network to identify all IP addresses and open ports across the subnet.
+- This scan provided insight into which ports were open and if any unnecessary services were running on the router or connected devices.
+
+### 3. **Packet Capture Using Wireshark**
+- Captured network traffic with **Wireshark** to monitor the flow of data packets on my Wi-Fi network.
+- Analyzed the captured packets to identify any potential data leaks or vulnerabilities.
+- Investigated the types of traffic flowing in and out of the network to assess whether any sensitive information was exposed.
+
+### 4. **Identifying Unauthorized Devices**
+- Checked the list of devices connected to my network via the router’s **device management page**.
+- Identified any unauthorized devices connected to the network and took the necessary steps to block or remove them.
+- The Wi-Fi password was changed to disconnect unauthorized devices and prevent future intrusions.
+
+## Tools Used
+- **Wireshark**: A network protocol analyzer to capture and inspect data packets on the Wi-Fi network.
+- **Nmap**: A network scanning tool to identify open ports, IP addresses, and services running on the network.
+- **Router Admin Interface**: Used to view connected devices and manage security settings.
+
+## Key Learnings
+- **Network Security Fundamentals**: Gained a solid understanding of how to secure Wi-Fi networks against common threats.
+- **Wi-Fi Encryption**: Ensured that my network used **WPA3** encryption for stronger security.
+- **Penetration Testing**: Learned how to scan networks for open ports, capture packets, and identify unauthorized devices.
+- **Security Best Practices**: Developed a set of best practices for securing home networks, including regularly changing passwords, disabling unnecessary services, and using encryption.
+
+## Recommendations
+- Always use **WPA3** encryption for better protection against attacks.
+- Regularly change your Wi-Fi password and ensure it is strong and unique.
+- Disable unnecessary open ports and services on your router.
+- Monitor connected devices and block unauthorized ones immediately.
+- Keep your router's firmware up to date to patch known vulnerabilities.
+
+## Conclusion
+
+Through this task, I have learned valuable skills related to **network security** and **penetration testing**. By analyzing and securing my home Wi-Fi network, I have gained insights into how attackers might exploit weak spots in a network and how to effectively mitigate those risks. I look forward to continuing to build on this knowledge and applying it in real-world scenarios.
+
+
 
